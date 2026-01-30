@@ -14,14 +14,15 @@ using a webcam and detects drowsiness by combining deep learning and geometric f
 - Real-time alert generation for prolonged eye closure
 
 ## 📊 Dataset
-- **MRL Eye Dataset**
-- Grayscale eye images (open and closed)
-- Dataset split using training and validation subsets
+- **CEW (Closed Eyes in the Wild) Dataset**
+- Real-world eye images captured under unconstrained conditions
+- Used for training CNN-based eye state classification (open vs closed)
 
-## 🚀 Model Performance
+
+## 📈 Model Performance
 - Validation Accuracy: ~94%
-- Balanced confusion matrix for both eye states
-- Robust against blinking and lighting variations due to hybrid logic
+- Training and validation accuracy and loss curves indicate stable learning
+- Confusion matrix shows balanced performance across eye states
 
 ## 🛠 Tech Stack
 - Python
